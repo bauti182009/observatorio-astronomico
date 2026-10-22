@@ -1,0 +1,48 @@
+
+body {
+    font-family: Arial;
+    color: #202d5a;
+}
+.menu {
+    background-color: #bf99c4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu a {
+color: white;
+    margin: 10px;
+}
+
+.portada {
+    color: #34506d;
+   text-align: center;
+   padding: 20px;
+}
+
+.contenido {
+    padding: 25px;
+    text-align: center;
+}
+
+.tarjetas {
+    text-align: center;
+}
+
+.tarjeta {
+  display: inline-block;
+  padding: 30px;
+
+}
+
+.pie {
+    background-color: #bf99c4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+a:hover {
+    color: #b69aff;
+}
