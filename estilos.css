@@ -46,3 +46,254 @@ color: white;
 a:hover {
     color: #b69aff;
 }
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #080914;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #080914;
+    color: #eeeeff;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0b0c19;
+    padding: 25px 20px;
+    text-align: center;
+    border-bottom: 1px solid #292344;
+}
+
+header h1 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+header p {
+    color: #bcb8dc;
+    margin: 8px 0 0;
+}
+
+nav {
+    background-color: #111225;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #292344;
+}
+
+nav a {
+    color: #d8d0ff;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: transparent;
+}
+
+.intro {
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #10111f;
+    border: 1px solid #292344;
+    border-radius: 15px;
+}
+
+.intro h2 {
+    color: #d8c8ff;
+    margin-top: 0;
+}
+
+.intro p {
+    color: #d0cee2;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #7451c8;
+    color: white;
+    padding: 11px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.boton:hover {
+    background-color: #8d6be0;
+}
+
+h2 {
+    color: #d8c8ff;
+}
+
+h3 {
+    color: #e5dcff;
+}
+
+p {
+    color: #d0cee2;
+}
+
+.planetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.planeta {
+    background-color: #10111f;
+    border: 1px solid #292344;
+    border-radius: 14px;
+}
+
+.planeta img {
+    display: block;
+    width: 140px;
+    height: 140px;
+    max-width: 100%;
+    object-fit: contain;
+    margin: 0 auto 15px;
+}
+
+.planeta h3 {
+    margin: 5px 0 10px;
+}
+
+.planeta p {
+    text-align: left;
+}
+
+.dato {
+    color: #c5b5ff;
+    font-weight: bold;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.foto {
+    background-color: #10111f;
+    border: 1px solid #292344;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.foto img {
+    display: block;
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    background-color: #151629;
+}
+
+.foto div {
+    padding: 18px;
+}
+
+.foto h3 {
+    margin-top: 0;
+}
+
+.seccion {
+    background-color: #10111f;
+    border: 1px solid #292344;
+    border-radius: 14px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.lista {
+    padding-left: 22px;
+    color: #d0cee2;
+}
+
+.lista li {
+    margin-bottom: 10px;
+}
+
+form {
+    background-color: #10111f;
+    border: 1px solid #292344;
+    border-radius: 14px;
+    padding: 25px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #e5dcff;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #393451;
+    border-radius: 7px;
+    background-color: #080914;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+button {
+    background-color: #7451c8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    margin-top: 18px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #8d6be0;
+}
+
+footer {
+    background-color: #0b0c19;
+    color: #bcb8dc;
+    text-align: center;
+    padding: 20px;
+    margin-top: 45px;
+    border-top: 1px solid #292344;
+}
+
+footer p {
+    margin: 0;
+    color: #bcb8dc;
+}
+
+a {
+    transition: color 0.2s;
+}
